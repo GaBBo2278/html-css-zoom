@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+
+.speaker, .full-screen {
+    background-color: #484848;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 5px;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 30px;
+}
+main {
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.user {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    background-image: url(https://picsum.photos/300/200);
+    align-items: flex-end;
+}
+
+.user-info{
+    background-color: #a0a0a0;
+    padding: 3px;
+    color: white;
+    font-size: 14px;
+}
