@@ -40,7 +40,7 @@ main {
 
 .user {
     display: flex;
-    width: 200px;
+    width: 230px;
     height: 150px;
     background-image: url(https://picsum.photos/300/200);
     align-items: flex-end;
@@ -51,4 +51,48 @@ main {
     padding: 3px;
     color: white;
     font-size: 14px;
+}
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .fa-chevron-up {
+    font-size: 10px;
+}
+
+.fa-share-square {
+    color: #4bc801;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+}
+
+.box i {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.box span {
+    font-size: 12px;
+}
+
+.status-meeting {
+    padding: 16px;
+    color: red;
+    background-color: #4b4b4b;
 }
